@@ -63,6 +63,11 @@ def logout():
     response={"status": "success"}
     
     return jsonify({"response" : response})
+
+
+@app.route('/dashboard', methods=['POST', 'GET'])
+def dashboard():
+    pass
             
 if __name__=="__main__":
     app.run(debug=True, port=8000)

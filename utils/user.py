@@ -144,6 +144,8 @@ class User(object):
         
         return status
     
+    def makeReservation(self):
+        pass    
         
 
 
